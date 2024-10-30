@@ -7,7 +7,7 @@ IMAGE_PATH='CollectedImages'
 
 labels=['Fever','Vomit','Headache','Cough','Sneeze']
 
-number_of_images=20
+number_of_images=5
 
 for label in labels:
     img_path = os.path.join(IMAGE_PATH, label)
